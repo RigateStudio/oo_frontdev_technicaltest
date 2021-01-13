@@ -1,0 +1,153 @@
+@import "../../index.scss";
+
+.HeaderIntroduction {
+    background: url(./intro_photo_staticslider.png) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+
+    @include lg-desktop {
+      display: flex;
+      position: relative;
+      text-align: center;
+      justify-content: space-between;
+    }
+    @include sm-desktop {
+      display: flex;
+      position: relative;
+      text-align: center;
+      justify-content: space-between;
+    }
+    @include tablet-phone {
+        flex-direction: column;
+        padding: 0px;
+      }
+    @include phone {
+        flex-direction: column;
+        padding: 0px;
+      }
+  }
+
+.HeaderIntroductionText {
+  display: inline 
+  }
+
+    .Dates {
+    background-color: $myTurquoize;
+    color: white;
+    font-size: 3vh;
+    width: fit-content;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    text-align: center;
+
+    @include lg-desktop {
+      width: fit-content;
+      padding: 1vh;
+      padding-left: 2vh;
+      padding-right: 2vh;
+    }
+  
+    @include sm-desktop {
+      width: fit-content;
+      padding: 1vh;
+      padding-left: 2vh;
+      padding-right: 2vh;
+    }
+  
+    @include tablet-phone {
+      justify-content: center;
+      padding: 1vh;
+      width: 100%;
+      }
+
+    @include phone {
+      justify-content: center;
+      padding: 1vh;
+      width: 100%;
+    }
+  }
+
+  .Title {
+    color: white;
+    font-size: 3vh;
+    font-weight: 600;
+    width: fit-content;
+    padding: 3vh;
+    background: $myBlue;
+    text-align: center;
+    overflow-wrap: break-word;
+
+    @include lg-desktop {
+      width: fit-content;
+      padding: 3vh;
+      padding-left: 2vh;
+      padding-right: 2vh;
+    }
+  
+    @include sm-desktop {
+      width: fit-content;
+      padding: 2vh;
+      padding-left: 2vh;
+      padding-right: 2vh;
+    }
+  
+    @include tablet-phone {
+      justify-content: center;
+      padding: 2vh;
+      width: 100%;
+      }
+    @include phone {
+      justify-content: center;
+      padding: 2vh;
+      width: 100%;
+    }
+  }
+
+  .Text {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2vh;
+    width: fit-content;
+    padding: 5px;
+    background: $myBlue;
+    text-align: center;
+    overflow-wrap: break-word;
+
+    @include lg-desktop {
+      width: fit-content;
+      padding: 1vh;
+      padding-top: 0%;
+      padding-left: 2vh;
+      padding-right: 2vh;
+    }
+  
+    @include sm-desktop {
+      width: fit-content;
+      padding: 1vh;
+      padding-top: 0%;
+      padding-left: 2vh;
+      padding-right: 2vh;
+    }
+  
+    @include tablet-phone {
+      justify-content: center;
+      padding: 1vh;
+      padding-top: 0%;
+      width: 100%;
+      }
+      
+    @include phone {
+      justify-content: center;
+      padding: 1vh;
+      padding-top: 0%;
+      width: 100%;
+    }
+  }
+  
+   
+.HeaderIntroductionLogo {
+  padding: 5rem;
+}

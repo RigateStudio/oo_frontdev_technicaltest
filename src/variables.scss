@@ -1,0 +1,35 @@
+$myGrey: #e6e6e6;
+$myTurquoize: #86cebb;
+$myGreen: #d7e5db;
+$myPurple: #c09dbf;
+$myOrange: #eecc9a;
+$myBlue: #0a264a;
+
+$phone: 320px;
+$tablet-phone: 768px;
+$sm-desktop: 769px;
+$lg-desktop: 1440px;
+
+@mixin phone {
+  @media (max-width: $phone) {
+    @content;
+  }
+}
+
+@mixin tablet-phone {
+  @media (max-width: $tablet-phone) {
+    @content;
+  }
+}
+
+@mixin sm-desktop {
+  @media (min-width: $sm-desktop) {
+    @content;
+  }
+}
+
+@mixin lg-desktop {
+  @media (min-width: $lg-desktop) {
+    @content;
+  }
+}

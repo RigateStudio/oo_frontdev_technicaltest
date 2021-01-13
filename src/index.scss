@@ -1,0 +1,13 @@
+@import "./variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&family=Roboto:wght@300&display=swap');
+
+
+html,
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  color: #383838;
+  box-sizing: border-box;
+}

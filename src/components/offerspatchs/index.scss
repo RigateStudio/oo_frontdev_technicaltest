@@ -1,0 +1,58 @@
+@import "../../index.scss";
+
+.OffersPatchGlobal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.OffersPatchOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $myGreen;
+    width: 1317,9px;
+    height: 137,43px;
+    color: white;
+    padding: 4px;
+
+    .Lign {
+        width: 30px;
+        border-bottom: 1px solid white;
+        margin-bottom: 10px;
+        margin-left: 3px;
+        margin-right: 5px; 
+}
+
+    .OffersPatchLignOne {
+        font-weight: 300;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .OffersPatchLignTwo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .OffersPatchLignThree {
+        display: flex;
+        padding: 10px;
+        .OffersPatchLignThreePrice {
+            font-size: 40px;
+            font-weight: 500;
+        }
+
+    .OffersPatchLignThreePerMonths {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}
+}
+
+.OffersPatchtwo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+    }
