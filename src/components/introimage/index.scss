@@ -3,10 +3,10 @@
 .HeaderIntroduction {
     background: url(./intro_photo_staticslider.png) no-repeat center center;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     padding: 50px;
-
+  
     @include lg-desktop {
       display: flex;
       position: relative;

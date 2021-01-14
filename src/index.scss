@@ -11,3 +11,23 @@ body {
   color: #383838;
   box-sizing: border-box;
 }
+
+.MyContainer {
+  margin-right: auto;
+  margin-left:  auto;
+
+  @include lg-desktop {
+      max-width: 1300px;
+  }
+  @include sm-desktop {
+      max-width: 1190px;
+  }
+
+  @include tablet-phone {
+      max-width: 1700px;
+  }
+
+  @include phone {
+      max-width: 310px;
+  }
+}

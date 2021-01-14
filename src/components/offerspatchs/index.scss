@@ -2,32 +2,74 @@
 
 .OffersPatchGlobal {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
 }
 
-.OffersPatchOne {
+
+.OffersPatchGreen {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: $myGreen;
-    width: 1317,9px;
+    width: 16rem;
     height: 137,43px;
     color: white;
-    padding: 4px;
+    padding: 8px;
+}
+
+.OffersPatchTurquoize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $myTurquoize;
+    width: 16rem;
+    height: 137,43px;
+    color: white;
+    padding: 8px;
+}
+
+.OffersPatchPurple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $myPurple;
+    width: 16rem;
+    height: 137,43px;
+    color: white;
+    padding: 8px;
+}
+
+.OffersPatchOrange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $myOrange;
+    width: 16rem;
+    height: 137,43px;
+    color: white;
+    padding: 8px;
+}
+
+
 
     .Lign {
-        width: 30px;
+        width: 4rem;
         border-bottom: 1px solid white;
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
         margin-left: 3px;
         margin-right: 5px; 
 }
 
     .OffersPatchLignOne {
         font-weight: 300;
-        font-size: 20px;
-        padding: 10px;
+        font-size: 1.25rem;
+        padding: 0.625rem;
     }
 
     .OffersPatchLignTwo {
@@ -37,9 +79,9 @@
 
     .OffersPatchLignThree {
         display: flex;
-        padding: 10px;
+        padding: 0.625rem;
         .OffersPatchLignThreePrice {
-            font-size: 40px;
+            font-size: 2.6875rem;
             font-weight: 500;
         }
 
@@ -47,7 +89,6 @@
         margin-bottom: 10px;
         font-size: 20px;
     }
-}
 }
 
 .OffersPatchtwo {

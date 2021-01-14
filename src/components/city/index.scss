@@ -1,0 +1,166 @@
+@import "../../index.scss";
+
+
+.Header {
+  display: flex;
+  padding-bottom: 60px;
+
+  @include lg-desktop {
+      justify-content: space-between;
+    }
+    @include sm-desktop {
+      justify-content: space-between;
+    }
+    @include tablet-phone {
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+    @include phone {
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 auto;
+      }
+  }
+
+.CityPhoto {
+    width: 580px;
+    height: 370px;
+    padding: 20px;
+
+    @include tablet-phone {
+        display: inline-flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 269px;
+        height: 181px;
+    }
+    @include phone {
+        display: inline-flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 269px;
+        height: 181px;
+        padding: 10px;
+    }
+  }
+
+.CityDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 50px;
+
+    @include tablet-phone {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 269px;
+        height: 181px;
+    }
+    @include phone {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 269px;
+        height: 181px;
+    }
+
+    .CityDescriptionTitle {
+        padding-right: 7px;
+
+        @include tablet-phone {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        @include phone {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+    }
+
+    .OwnStyle {
+        background-color: rgb(134, 130, 130);
+    }
+
+    .Robotosmall {
+        font-family: 'Roboto', sans-serif;
+        color: $myBlue;
+        font-size: 0,005rem;
+    }
+
+    .list-decoration {
+        padding-left: 0;
+        list-style: none;
+        line-height: 1.5;
+    }
+
+    .list-decoration--svg li {
+        display: flex;
+        justify-content: flex-start;
+        background: url(./circle.png) no-repeat center center;
+        background-repeat: no-repeat;
+        margin-top: .25em;
+        margin-bottom: .25em;
+        padding-left: 1.5em;
+        background-size: .6em;
+        background-position: 0 .25em;      
+      }
+}
+
+.MainTitle {
+    font-weight: 700;
+    color: $myBlue;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.Description {
+    font-weight: 300;
+    font-size: 27px;
+    color: $myBlue;
+    line-height: 1.2;
+}
+
+.ListChoice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    color: $myBlue;
+    font-size: 0,005rem;
+
+    .ListChoiceOne {
+        margin-right: 40px;
+
+        @include tablet-phone {
+            margin-right: 0px;
+        }
+
+        @include phone {
+            margin-right: 0px;
+        }
+    }
+
+    .ListChoiceTwo {
+        margin-right: 300px;
+
+        @include tablet-phone {
+            margin-right: 0px;
+        }
+
+        @include phone {
+            margin-left: 70px;
+            justify-content: space-around;
+        }
+    }
+
+}
