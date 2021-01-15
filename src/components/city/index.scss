@@ -24,9 +24,17 @@
   }
 
 .CityPhoto {
-    width: 580px;
-    height: 370px;
-    padding: 20px;
+    @include lg-desktop {
+        width: 580px;
+        height: 370px;
+        padding: 20px;
+    }
+
+    @include sm-desktop {
+        width: 580px;
+        height: 370px;
+        padding: 15px;
+    }
 
     @include tablet-phone {
         display: inline-flex;
@@ -34,6 +42,8 @@
         margin: 0 auto;
         width: 269px;
         height: 181px;
+        padding: 10px;
+
     }
     @include phone {
         display: inline-flex;
@@ -49,7 +59,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 50px;
+    padding: 3.125rem;
 
     @include tablet-phone {
         justify-content: center;
@@ -57,6 +67,7 @@
         margin: 0 auto;
         width: 269px;
         height: 181px;
+        margin-top: 3.85rem;
     }
     @include phone {
         justify-content: center;
@@ -67,7 +78,7 @@
     }
 
     .CityDescriptionTitle {
-        padding-right: 7px;
+        padding-right: 0.575rem;
 
         @include tablet-phone {
             display: flex;
@@ -75,6 +86,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
+            padding-top: 6,875rem;
         }
 
         @include phone {
@@ -83,6 +95,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
+            padding-top: 6,875rem;
         }
 
     }
@@ -119,13 +132,13 @@
 .MainTitle {
     font-weight: 700;
     color: $myBlue;
-    font-size: 35px;
+    font-size: 2.1875rem;
     line-height: 1.2;
 }
 
 .Description {
     font-weight: 300;
-    font-size: 27px;
+    font-size: 1.6875rem;
     color: $myBlue;
     line-height: 1.2;
 }
@@ -139,26 +152,28 @@
     font-size: 0,005rem;
 
     .ListChoiceOne {
-        margin-right: 40px;
-
         @include tablet-phone {
-            margin-right: 0px;
+            margin-right: 2.5rem;
         }
 
         @include phone {
-            margin-right: 0px;
+            margin-right: 2.5rem;
+        }
+
+        .ListChoiceOne a:hover {
+            text-decoration: underline;
         }
     }
 
-    .ListChoiceTwo {
-        margin-right: 300px;
-
+.ListChoiceTwo {
+        margin-right: 9.375rem;
+        
         @include tablet-phone {
-            margin-right: 0px;
+            margin-right: 0rem;
         }
 
         @include phone {
-            margin-left: 70px;
+            margin-left: 4,375rem;
             justify-content: space-around;
         }
     }
