@@ -3,10 +3,13 @@
 .HeaderIntroduction {
     background: url(./intro_photo_staticslider.png) no-repeat center center;
     background-size: cover;
-    height: 100vh;
+    display: flex;
+    position: relative;
+    text-align: center;
+    height: 100%;
     width: 100%;
     padding: 50px;
-  
+
     @include lg-desktop {
       display: flex;
       position: relative;
@@ -150,4 +153,15 @@
    
 .HeaderIntroductionLogo {
   padding: 5rem;
+  @include lg-desktop {
+  }
+  @include sm-desktop {
+  }
+  @include tablet-phone {
+    height: 50%;
+    width: 50%;
+    }
+  @include phone {
+
+    }
 }

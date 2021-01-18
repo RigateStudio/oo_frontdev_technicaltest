@@ -7,6 +7,17 @@
     padding-bottom: 3.75rem;
 }
 
+.OffersPatchSlider { 
+    width: 16rem;
+}
+
+.OffersPatchMobile {
+    padding: 6vh;
+}
+
+.ft-slick__dots--custom {
+    
+}
 
 .OffersPatchGreen {
     display: flex;
@@ -56,15 +67,13 @@
     padding: 8px;
 }
 
-
-
     .Lign {
         width: 4rem;
         border-bottom: 1px solid white;
         margin-bottom: 0.625rem;
         margin-left: 3px;
         margin-right: 5px; 
-}
+    }
 
     .OffersPatchLignOne {
         font-weight: 300;
@@ -95,5 +104,4 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-  
     }
