@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c7d560a2.chunk.css",
+    "main.js": "/static/js/main.2c706938.chunk.js",
+    "main.js.map": "/static/js/main.2c706938.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dd5c283c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dd5c283c.js.map",
+    "static/css/2.165ff965.chunk.css": "/static/css/2.165ff965.chunk.css",
+    "static/js/2.7957f325.chunk.js": "/static/js/2.7957f325.chunk.js",
+    "static/js/2.7957f325.chunk.js.map": "/static/js/2.7957f325.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.165ff965.chunk.css.map": "/static/css/2.165ff965.chunk.css.map",
+    "static/css/main.c7d560a2.chunk.css.map": "/static/css/main.c7d560a2.chunk.css.map",
+    "static/js/2.7957f325.chunk.js.LICENSE.txt": "/static/js/2.7957f325.chunk.js.LICENSE.txt",
+    "static/media/city_photo.232c987a.png": "/static/media/city_photo.232c987a.png",
+    "static/media/index.scss": "/static/media/intro_photo_staticslider.8dc0fad5.png",
+    "static/media/logo_le_village.684db873.png": "/static/media/logo_le_village.684db873.png",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd5c283c.js",
+    "static/css/2.165ff965.chunk.css",
+    "static/js/2.7957f325.chunk.js",
+    "static/css/main.c7d560a2.chunk.css",
+    "static/js/main.2c706938.chunk.js"
+  ]
+}
