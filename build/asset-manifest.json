@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/technical-test/static/css/main.303beb0c.chunk.css",
-    "main.js": "/technical-test/static/js/main.198b1df6.chunk.js",
-    "main.js.map": "/technical-test/static/js/main.198b1df6.chunk.js.map",
-    "runtime-main.js": "/technical-test/static/js/runtime-main.d6d0aff3.js",
-    "runtime-main.js.map": "/technical-test/static/js/runtime-main.d6d0aff3.js.map",
-    "static/css/2.cc416972.chunk.css": "/technical-test/static/css/2.cc416972.chunk.css",
-    "static/js/2.86b1245d.chunk.js": "/technical-test/static/js/2.86b1245d.chunk.js",
-    "static/js/2.86b1245d.chunk.js.map": "/technical-test/static/js/2.86b1245d.chunk.js.map",
-    "index.html": "/technical-test/index.html",
-    "static/css/2.cc416972.chunk.css.map": "/technical-test/static/css/2.cc416972.chunk.css.map",
-    "static/css/main.303beb0c.chunk.css.map": "/technical-test/static/css/main.303beb0c.chunk.css.map",
-    "static/js/2.86b1245d.chunk.js.LICENSE.txt": "/technical-test/static/js/2.86b1245d.chunk.js.LICENSE.txt",
-    "static/media/city_photo.232c987a.png": "/technical-test/static/media/city_photo.232c987a.png",
-    "static/media/index.scss": "/technical-test/static/media/intro_photo_staticslider.8dc0fad5.png",
-    "static/media/logo_le_village.684db873.png": "/technical-test/static/media/logo_le_village.684db873.png",
-    "static/media/slick-theme.css": "/technical-test/static/media/slick.c94f7671.ttf"
+    "main.css": "/oo_frontdev_technicaltest/static/css/main.a50f7ed6.chunk.css",
+    "main.js": "/oo_frontdev_technicaltest/static/js/main.198b1df6.chunk.js",
+    "main.js.map": "/oo_frontdev_technicaltest/static/js/main.198b1df6.chunk.js.map",
+    "runtime-main.js": "/oo_frontdev_technicaltest/static/js/runtime-main.e3334ef9.js",
+    "runtime-main.js.map": "/oo_frontdev_technicaltest/static/js/runtime-main.e3334ef9.js.map",
+    "static/css/2.37a6e92f.chunk.css": "/oo_frontdev_technicaltest/static/css/2.37a6e92f.chunk.css",
+    "static/js/2.86b1245d.chunk.js": "/oo_frontdev_technicaltest/static/js/2.86b1245d.chunk.js",
+    "static/js/2.86b1245d.chunk.js.map": "/oo_frontdev_technicaltest/static/js/2.86b1245d.chunk.js.map",
+    "index.html": "/oo_frontdev_technicaltest/index.html",
+    "static/css/2.37a6e92f.chunk.css.map": "/oo_frontdev_technicaltest/static/css/2.37a6e92f.chunk.css.map",
+    "static/css/main.a50f7ed6.chunk.css.map": "/oo_frontdev_technicaltest/static/css/main.a50f7ed6.chunk.css.map",
+    "static/js/2.86b1245d.chunk.js.LICENSE.txt": "/oo_frontdev_technicaltest/static/js/2.86b1245d.chunk.js.LICENSE.txt",
+    "static/media/city_photo.232c987a.png": "/oo_frontdev_technicaltest/static/media/city_photo.232c987a.png",
+    "static/media/index.scss": "/oo_frontdev_technicaltest/static/media/intro_photo_staticslider.8dc0fad5.png",
+    "static/media/logo_le_village.684db873.png": "/oo_frontdev_technicaltest/static/media/logo_le_village.684db873.png",
+    "static/media/slick-theme.css": "/oo_frontdev_technicaltest/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.d6d0aff3.js",
-    "static/css/2.cc416972.chunk.css",
+    "static/js/runtime-main.e3334ef9.js",
+    "static/css/2.37a6e92f.chunk.css",
     "static/js/2.86b1245d.chunk.js",
-    "static/css/main.303beb0c.chunk.css",
+    "static/css/main.a50f7ed6.chunk.css",
     "static/js/main.198b1df6.chunk.js"
   ]
 }
