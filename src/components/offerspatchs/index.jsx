@@ -11,7 +11,7 @@ const Mobile = ({ children }) => {
 
 class PatchsSlider extends React.Component {
 	render(){
-		let settings = { 
+		let settings = {
       className: "OffersPatchSlider",
       dots: true,
       infinite: true,
@@ -19,10 +19,6 @@ class PatchsSlider extends React.Component {
       slidesToScroll: 1,
       pauseOnHover: true,
       autoplay: true,
-//      customPaging: i => (
-//      <div className="ft-slick__dots--custom">
-//      <div className="loading" />
-//      </div>),
 		}
 		return (
 			<Slider {...settings} >
@@ -35,7 +31,7 @@ class PatchsSlider extends React.Component {
             <span className="Lign"> </span>
           </div>
           <div className="OffersPatchLignThree">
-            <div className="OffersPatchLignThreePrice"> 390€ </div>
+            <div className="OffersPatchLignThreePrice"> 390 € </div>
             <div className="OffersPatchLignThreePerMonths"> /MOIS </div>
           </div>
         </div>
@@ -84,7 +80,7 @@ const OffersPatch = () => (
   <div>
      <MediaQuery minWidth={1224}>
       <MediaQuery minWidth={768}>
-      <section className="MyContainer OffersPatchGlobal">
+      <section className="OffersPatchGlobal">
         <div className="OffersPatchGreen">
           <div className="OffersPatchLignOne"> VOTRE STUDIO
           </div>

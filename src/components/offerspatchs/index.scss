@@ -3,8 +3,8 @@
 .OffersPatchGlobal {
     display: flex;
     justify-content: space-between;
-    padding-top: 3.75rem;
-    padding-bottom: 3.75rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .OffersPatchSlider { 
@@ -12,12 +12,20 @@
 }
 
 .OffersPatchMobile {
-    padding: 6vh;
-}
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
 
-.ft-slick__dots--custom {
-    
-}
+.slide-controls {
+    position: absolute;
+    top: 1em ;
+    left: 1em;
+    z-index: 1;
+    width: 100%
+  }
+  
 
 .OffersPatchGreen {
     display: flex;
@@ -76,6 +84,9 @@
     }
 
     .OffersPatchLignOne {
+        display: flex;
+        justify-content: center;
+        align-items: center;    
         font-weight: 300;
         font-size: 1.25rem;
         padding: 0.625rem;
@@ -88,7 +99,8 @@
 
     .OffersPatchLignThree {
         display: flex;
-        padding: 0.625rem;
+        justify-content: center;
+        align-items: center;           padding: 0.625rem;
         .OffersPatchLignThreePrice {
             font-size: 2.6875rem;
             font-weight: 500;
